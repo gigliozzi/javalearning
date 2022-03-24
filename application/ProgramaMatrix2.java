@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class ProgramaMatrix2 { 
 
-	public static void main(String[] args) {
+		public static void main(String[] args) {
 
 		Scanner sc = new Scanner(System.in);
 
@@ -15,17 +15,17 @@ public class ProgramaMatrix2 {
 		System.out.print("Quantas colunas tem a matriz? ");
 		int m = sc.nextInt();
 		int[][] mat = new int[n][m]; // instance new matrix
+		
 
 		// feed the matrix
 		for (int i = 0; i < mat.length; i++) {
 			for (int j = 0; j < mat[i].length; j++) {
-				mat[i][j] = sc.nextInt();
-				
+				mat[i][j] = sc.nextInt();				
 			}
+			 
 		}
 		
 		
-
 		System.out.print("Informe um numero da matriz: ");
 		int number = sc.nextInt();		
 		System.out.println();

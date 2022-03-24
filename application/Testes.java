@@ -10,13 +10,19 @@ public class Testes {
 
 		Scanner sc = new Scanner(System.in);
 
-		int A, B, PROD;
+		float N1, N2; 
+		Double media;
 
-		A = sc.nextInt();
-		B = sc.nextInt();
-		PROD = A * B;
-
-		System.out.println("PROD = " + PROD);
+		N1 = sc.nextFloat();
+		N2 = sc.nextFloat();
+		// não esuqeça de sobrescrever essa solução no beecrowd, pois esta está correta
+		// not forget submit this solution in online judgment
+		if ((N1 >= 0 && N1 <= 10) && (N2 >= 0 && N2 <= 10)) {
+			media = (N1 * 3.5 + N2 * 7.5) / 11;
+			System.out.printf("MEDIA = %.5f%n", media);
+		} else {
+			System.out.println("out of range");
+		}
 
 		sc.close();
 	}
