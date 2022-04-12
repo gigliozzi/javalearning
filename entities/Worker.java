@@ -10,8 +10,6 @@ public class Worker {
 	private String name;
 	private WorkerLevel level;
 	private Double baseSalary;
-
-	// associations (see UML)
 	private Department department;
 	private List<HourContract> contracts = new ArrayList<>(); // begin empty list
 

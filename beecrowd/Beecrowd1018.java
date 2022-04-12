@@ -31,9 +31,7 @@ public class Beecrowd1018 {
 			System.out.println(notes + " nota(s) de R$ 2,00");
 
 			notes = rest / 1;
-			System.out.printf(notes + " nota(s) de R$ 1,00\n");
-		} else {
-			System.out.println(value + " out of range");
+			System.out.println(notes + " nota(s) de R$ 1,00");
 		}
 		sc.close();
 	}
