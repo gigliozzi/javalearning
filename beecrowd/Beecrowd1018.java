@@ -10,7 +10,7 @@ public class Beecrowd1018 {
 		int value, notes, rest;
 
 		value = sc.nextInt();
-		if (value > 1 && value < 1000000) {
+		if (0 <= value && value <= 1000000) {
 			System.out.println(value);
 			notes = value / 100; rest = value % 100;
 			System.out.println(notes + " nota(s) de R$ 100,00");
